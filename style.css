@@ -1,0 +1,121 @@
+body {
+  background-color: #ccc;
+  font-family: "Audiowide", cursive;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.login_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  /* overflow:hidden ; */
+}
+.input_style{
+  border-radius: 5px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 10px;
+  height: 25px;
+
+}
+
+.button_style{
+  border-radius: 1px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 25px;
+  background-color: gray;
+  color: #ffffff;
+  font-size: 15px;
+}
+.center_text {
+  text-align: center;
+}
+.box {
+  border: 2px #ffffff solid;
+  width: 540px;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.box_information {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.box_score {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.box_results {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.option_selected {
+  font-size: 40px;
+}
+
+.text_red {
+  color: red;
+}
+
+.text_green {
+  color: green;
+}
+
+.text_yellow {
+  color: yellow;
+}
+
+.margin_top {
+  margin-top: 30px;
+}
+
+.card {
+  border: 4px white solid;
+  background-color: #ccc;
+}
+
+.display_none {
+  display: none;
+}
+
+.selections {
+  display: flex;
+  justify-content: space-around;
+}
+
+.selection {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 3rem;
+  transition: 100ms;
+  padding: 10px;
+}
+
+.selection:hover {
+  transform: scale(1.2);
+}
+
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
