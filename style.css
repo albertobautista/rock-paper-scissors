@@ -15,18 +15,16 @@ body {
   justify-content: center;
   align-items: center;
   height: 90vh;
-  /* overflow:hidden ; */
 }
-.input_style{
+
+.input_style {
   border-radius: 5px;
   margin-left: 100px;
   margin-right: 100px;
   margin-top: 10px;
   height: 25px;
-
 }
-
-.button_style{
+.button_style {
   border-radius: 1px;
   margin-left: 100px;
   margin-right: 100px;
@@ -113,8 +111,7 @@ body {
   transform: scale(1.2);
 }
 
-
-.formulario{
+.formulario {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;

@@ -24,7 +24,7 @@ const maxTurns = 10;
 let currentTurn = 0;
 
 const USER = "cursojs"
-const PASSWORD = "alberto"
+const PASSWORD = "12345"
 
 const OPTIONS = [
     {
@@ -53,12 +53,10 @@ function initGame() {
     spanGameTurn.innerText = "Comenzar";
     spanUser.innerText = USER
     spanPassword.innerText = PASSWORD
-
-
 }
 
 function prepareButtons() {
-    buttonLogin.addEventListener("click", () => { // console.log({inputUser.value,inputPassword})
+    buttonLogin.addEventListener("click", () => {
         if (inputUser.value.length > 0 && inputPassword.value.length > 0) {
             if (validateUser()) {
                 divGameContainer.classList.remove("display_none")
@@ -109,8 +107,7 @@ function resetGame() {
 
 function printScoreList() {
     const arrayScore = JSON.parse(localStorage.getItem('gameScore'))
-    
-    
+
 
     olScoreList.innerHTML = ""
     if (arrayScore) {
@@ -138,8 +135,7 @@ function saveInLocalStorage(score) {
 
 function makeSelection(playerSelection) {
     const computerSelection = randomSelection();
-    console.log('computerSelection', computerSelection);
-    console.log('playerSelection', playerSelection);
+
     pPlayerOption.innerText = playerSelection.emoji
     pComputerOption.innerText = computerSelection.emoji
 
